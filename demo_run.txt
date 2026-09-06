@@ -1,0 +1,100 @@
+===== MOVIE TICKET BOOKING =====
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose: 
+  [1] Bleach	Japanese	105 min
+  [2] Haikyuu!!	Japanese	85 min
+  [3] Project Hail Mary	English	132 min
+  [4] The Thing	English	109 min
+
+Choose movie:   [1] Screen-1	06:00 PM
+Choose show: 
+  SCREEN-1  06:00 PM  |  Bleach
+  SILVER	A1[ ]	A2[ ]	A3[ ]	A4[ ]
+  GOLD	B1[ ]	B2[ ]	B3[ ]
+  PLATINUM	C1[ ]	C2[ ]
+  ( [ ] = available   [X] = booked )
+
+Seats (e.g. A1,B2): Pay by: 1.UPI  2.Card  3.Cash > 
+  A1 SILVER  Rs.150
+  B2 GOLD  Rs.250
+  TOTAL		Rs.400
+
+  [UPI] Rs.400 -- confirm payment? (y/n):   [UPI] Rs.400 paid successfully
+
+  ================ TICKET ================
+  Booking ID : BK1001
+  Movie      : Bleach
+  Screen     : Screen-1   06:00 PM
+  Seats      : A1, B2
+  Amount     : Rs.400	Status: CONFIRMED
+  =========================================
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose: 
+  [1] Bleach	Japanese	105 min
+  [2] Haikyuu!!	Japanese	85 min
+  [3] Project Hail Mary	English	132 min
+  [4] The Thing	English	109 min
+
+Choose movie:   [1] Screen-1	06:00 PM
+Choose show: 
+  SCREEN-1  06:00 PM  |  Bleach
+  SILVER	A1[X]	A2[ ]	A3[ ]	A4[ ]
+  GOLD	B1[ ]	B2[X]	B3[ ]
+  PLATINUM	C1[ ]	C2[ ]
+  ( [ ] = available   [X] = booked )
+
+Seats (e.g. A1,B2):   Error: seat A1 is already BOOKED. Booking rejected.
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose: 
+  [1] Bleach	Japanese	105 min
+  [2] Haikyuu!!	Japanese	85 min
+  [3] Project Hail Mary	English	132 min
+  [4] The Thing	English	109 min
+
+Choose movie:   [1] Screen-1	06:00 PM
+Choose show: 
+  SCREEN-1  06:00 PM  |  Bleach
+  SILVER	A1[X]	A2[ ]	A3[ ]	A4[ ]
+  GOLD	B1[ ]	B2[X]	B3[ ]
+  PLATINUM	C1[ ]	C2[ ]
+  ( [ ] = available   [X] = booked )
+
+Seats (e.g. A1,B2): Pay by: 1.UPI  2.Card  3.Cash > 
+  B1 GOLD  Rs.250
+  TOTAL		Rs.250
+
+  [UPI] Rs.250 -- confirm payment? (y/n):   Payment FAILED. Booking NOT confirmed; seats remain AVAILABLE.
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose: 
+  [1] Bleach	Japanese	105 min
+  [2] Haikyuu!!	Japanese	85 min
+  [3] Project Hail Mary	English	132 min
+  [4] The Thing	English	109 min
+
+Choose movie:   [1] Screen-1	06:00 PM
+Choose show: 
+  SCREEN-1  06:00 PM  |  Bleach
+  SILVER	A1[X]	A2[ ]	A3[ ]	A4[ ]
+  GOLD	B1[ ]	B2[X]	B3[ ]
+  PLATINUM	C1[ ]	C2[ ]
+  ( [ ] = available   [X] = booked )
+
+Seats (e.g. A1,B2):   Error: seat Z9 does not exist on this show.
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose:   BK1001  Bleach  Status: CONFIRMED
+  BK1002  Bleach  Status: FAILED
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose: Enter Booking ID to cancel:   Booking BK1001 cancelled. Seats are now AVAILABLE.
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose:   BK1001  Bleach  Status: CANCELLED
+  BK1002  Bleach  Status: FAILED
+
+1. Movies  2. Book  3. Cancel  4. My tickets   0. Exit
+Choose: Thank you for visiting PVR Dehradun!
